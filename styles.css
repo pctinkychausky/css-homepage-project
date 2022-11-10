@@ -1148,13 +1148,9 @@ body > main > section.more-to-love-section.master-container > div {
     row-gap: 30px;
   }
 
-  .footer-bottom {
-  }
-
   .first-love-master-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
   }
 
   body
@@ -1166,7 +1162,7 @@ body > main > section.more-to-love-section.master-container > div {
     > li {
     display: flex;
     flex-direction: row;
-    gap: 40%;
+    gap: 5%;
     align-items: center;
   }
 

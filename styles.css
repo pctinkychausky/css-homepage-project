@@ -1,0 +1,1151 @@
+/* background background-color : #FFFFFF
+line color: #DCDCDC
+menu color:#C9A16E
+font Futura PT light 
+font-family: 'Nunito', sans-serif;
+font-family: 'Rubik Beastly', cursive;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+body {
+  margin-top: 20px;
+  background-color: #ffffff;
+  font-family: "Nunito", Semi-bold;
+  line-height: 1.7em;
+  font-weight: bold;
+  color: #000000;
+  font-size: 10px;
+}
+
+.topbar {
+  width: 21px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+
+  top: 0;
+}
+
+.middlebar {
+  width: 21px;
+  height: 2px;
+  background-color: black;
+}
+
+.bottombar {
+  width: 21px;
+  height: 2px;
+  background-color: black;
+
+  bottom: 0;
+}
+.hor-line {
+  position: absolute;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+
+  align-content: space-around;
+
+  gap: 5px;
+}
+.topbar2 {
+  width: 20px;
+  height: 2px;
+  background-color: #986e39;
+  position: relative;
+  top: 0;
+}
+
+.middlebar2 {
+  width: 21px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.bottombar2 {
+  width: 20px;
+  height: 2px;
+  background-color: #986e39;
+  position: relative;
+  bottom: 0;
+}
+
+.back-line {
+  position: absolute;
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  gap: 5px;
+  z-index: -1;
+}
+
+.hamburger-menu:hover .topbar2 {
+  transform: rotate(45deg);
+  transition: transform 0.15s linear;
+  transform-origin: left;
+  z-index: 999;
+}
+
+.hamburger-menu:hover .bottombar2 {
+  transform: rotate(-45deg);
+  transition: transform 0.15s linear;
+  transform-origin: left;
+  z-index: 999;
+}
+
+.hamburger-menu:hover .hor-line {
+  opacity: 0;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: block;
+  padding-left: 2%;
+}
+
+.dropdownmenu {
+  display: none;
+  position: absolute;
+  margin-top: 50px;
+  background-color: rgba(8, 3, 3, 0.5);
+  min-width: 375px;
+  z-index: 99;
+  background-color: #f8f8f8;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 400;
+}
+
+.hamburger-menu:hover .dropdownmenu {
+  display: block;
+}
+
+.logo {
+  height: 16.6px;
+  width: 100px;
+}
+
+.main-top-bar {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin-block: 30px;
+  padding: 12.5px 20px 12.5px 20px;
+}
+
+.main-second-bar {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-second-bar > ul {
+  display: flex;
+
+  white-space: nowrap;
+
+  overflow-y: hidden;
+
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 0;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 200;
+
+  height: 43px;
+}
+
+.main-second-bar > ul > li {
+  padding-block: 15px;
+  padding-inline: 20px;
+  font-size: 13px;
+  align-self: center;
+  height: 13px;
+}
+
+.rightlogo {
+  width: 120px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hamburger-menu {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+.intro-video-section > div > img {
+  height: 190px;
+  width: 100%;
+  position: relative;
+}
+
+.feature-videos-section img {
+  width: 220px;
+  height: 142px;
+}
+
+.most-watched-videos-section img {
+  width: 280px;
+  height: 214.39px;
+}
+
+.share-the-love-section img {
+  width: 250px;
+  height: 250px;
+}
+
+header {
+  text-align: center;
+  line-height: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+}
+
+/* ------content----------- */
+.intro-video-section {
+  margin-bottom: 28px;
+  padding: 0;
+}
+.intro-video {
+  padding: 0;
+}
+
+.intro-video-content {
+  text-align: center;
+  width: 100%;
+}
+
+.intro-video-content > h2 {
+  font-size: 23px;
+
+  font-weight: bold;
+  line-height: 33.12px;
+
+  color: #000000;
+}
+
+.intro-video-content > p {
+  padding-top: 11px;
+  font-size: 12px;
+
+  font-weight: 200;
+
+  line-height: 16.8px;
+}
+/* feature-videos-section -------------------------------------*/
+
+.feature-videos-section {
+  padding-top: 30px;
+  border-top: 1px solid #c9a16e;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  overflow: hidden;
+}
+.video-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-weight: lighter;
+}
+
+.feature-videos-date {
+  font-size: 10.5px;
+}
+.feature-videos-title {
+  font-size: 14px;
+  letter-spacing: -1.1px;
+}
+
+/* feature-videos-section -------------------------------------*/
+
+.year-of-the-tiger-videos-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #c9a16e;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  padding-inline: 20px;
+}
+
+.year-of-tiger-box {
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.year-of-the-tiger-videos > h2 {
+  font-size: 17px;
+  line-height: 1.35;
+  letter-spacing: 0.4px;
+  font-weight: 200;
+
+  padding-top: 1px;
+}
+
+.year-of-the-tiger-videos > ul {
+  list-style: none;
+}
+
+.year-of-the-tiger-title {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.year-of-the-tiger-title > a {
+  font-size: 20px;
+  letter-spacing: -1.2px;
+  font-weight: 800;
+}
+
+.feature-videos-description {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.feature-videos-description > a {
+  font-size: 17px;
+  line-height: 1.38;
+  font-weight: 200;
+  letter-spacing: -1px;
+  padding-top: 1px;
+}
+
+.tiger-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.year-of-tiger-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.most-watched-videos-section {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  border-top: 1px solid #c9a16e;
+  padding-inline: 15px;
+}
+
+.first-most-watched-video:first-child {
+  border-right: 1px solid #c9a16e;
+}
+
+.first-most-watched-video {
+  position: relative;
+  margin-top: 20px;
+  padding-inline: 150px;
+  padding-block: 30px;
+  max-width: 374px;
+}
+
+.first-most-watched-video > h2 {
+  font-size: 15.6px;
+
+  font-weight: 200;
+
+  line-height: 1.35;
+  letter-spacing: 0.09em;
+
+  font-weight: lighter;
+}
+
+.most-watched-videos-title > a {
+  font-size: 21px;
+  text-decoration: none;
+  color: inherit;
+
+  font-weight: 900;
+  line-height: 1.1;
+
+  letter-spacing: -1px;
+}
+
+.most-watched-videos-description {
+  margin-top: 9px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.most-watched-videos-description > a {
+  font-size: 15px;
+  line-height: 1.3;
+  text-decoration: none;
+  color: inherit;
+  font-weight: lighter;
+  letter-spacing: -0.3px;
+}
+
+.most-watched-videos-content > a > img {
+  margin-top: 22px;
+  margin-bottom: 19px;
+}
+
+/* share the love section---------------------------------- */
+
+.share-the-love-section {
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #c9a16e;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  text-align: center;
+  list-style: none;
+}
+
+.share-the-love > h2 {
+  font-size: 16px;
+  padding-top: 3px;
+  padding-left: 15px;
+  letter-spacing: 1px;
+  line-height: 1.35;
+  font-weight: lighter;
+  margin-bottom: 17px;
+}
+.share-the-love-button {
+  margin-top: 18px;
+}
+.first-love-container > li > .share-the-love-button > a {
+  text-decoration: none;
+  color: inherit;
+  border: #000 1px solid;
+
+  padding-block: 13px;
+  padding-inline: 50px;
+}
+
+.first-love-master-container {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 40px;
+}
+
+/* member-section-------------------------------------------- */
+
+.member-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid #c9a16e;
+  padding-inline: 20px;
+}
+
+.member-section > div {
+  height: 220px;
+  margin-block: 50px;
+  width: 50%;
+}
+
+.member-section > div > h3 {
+  font-size: 20px;
+}
+
+.member-part {
+  border-right: 1px solid #c9a16e;
+}
+
+.member-part > h3 {
+  line-height: 1.4;
+  text-decoration: none;
+  color: inherit;
+  font-weight: lighter;
+  letter-spacing: -0.5px;
+}
+
+.member-part > div > a {
+  text-decoration: none;
+  color: inherit;
+  border: #000 1px solid;
+  font-size: 15px;
+
+  padding-block: 12px;
+  padding-inline: 43px;
+  font-weight: lighter;
+}
+
+.member-part > div {
+  border: 1px;
+  margin-top: 55px;
+}
+.member-part > h4 {
+  margin-block-start: 18px;
+  margin-block-end: 25px;
+}
+.media-icon img {
+  width: 22px;
+  height: 22px;
+}
+
+.member-part > h4 {
+  padding-top: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: inherit;
+
+  font-weight: lighter;
+}
+
+.connect-part > h3 {
+  font-weight: lighter;
+  letter-spacing: -0.3px;
+}
+
+.media-icon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.icon-container {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.icon-container > div {
+  width: 83.75px;
+  height: 52px;
+  margin-bottom: 45px;
+}
+
+/* More to love section------------------------ */
+.more-to-love-section {
+  text-align: center;
+  border-top: 1px solid #c9a16e;
+  padding-block-start: 20px;
+}
+
+.more-to-love-section > h2 {
+  font-size: 16px;
+  padding-top: 3px;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  line-height: 1.35;
+
+  font-weight: lighter;
+  margin-bottom: 16px;
+}
+
+.more-to-love-event-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.more-to-love-event-content > a > img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+
+.more-to-love-event-title > a {
+  font-size: 15px;
+  line-height: 1.4;
+  text-decoration: none;
+  color: inherit;
+  font-weight: lighter;
+  letter-spacing: -0.5px;
+}
+
+.more-to-love-event {
+  margin-bottom: 60px;
+
+  display: flex;
+  gap: 20px;
+}
+.more-to-love-event > h3 {
+  margin-inline: 20px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.more-to-love-event > h3 > a {
+  font-size: 19px;
+}
+
+.more-to-love-event > h4 {
+  margin-inline: 20px;
+  font-weight: lighter;
+  text-align: left;
+  padding-bottom: 2px;
+}
+
+.more-to-love-event > h4 > a {
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+/* footer--------------------------- */
+
+.icon-section {
+  text-align: center;
+
+  border-block: 1px solid #c9a16e;
+  padding-inline: 20px;
+}
+
+.icon-part {
+  margin-top: 22px;
+}
+
+.footer-icon {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  row-gap: 33px;
+}
+
+.footer-icon > div {
+  width: 83.75px;
+  height: 52px;
+  margin-bottom: 0px;
+}
+
+.footer-icon > div img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-middle {
+  color: #000;
+  font-family: FuturaPT, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.38;
+  width: 100vw;
+  padding-inline: 20%;
+  margin-block: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+  list-style: none;
+  max-width: 1000px;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container > li {
+  box-sizing: border-box;
+}
+
+.container > li > a {
+  display: block;
+  font-size: 12px;
+  padding: 22px 0;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+footer {
+  box-sizing: border-box;
+}
+
+.footer-bottom {
+  margin-block-end: 30px;
+  list-style: none;
+  padding-inline: 10%;
+  color: #000;
+  font-family: FuturaPT, Helvetica, Arial, sans-serif;
+}
+
+.container-bottom {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.container-bottom > li > a {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  color: inherit;
+}
+/* 
+.container-bottom :nth-child(2n) > a {
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+} */
+
+@media (min-width: 375px) {
+  .main-top-bar {
+  }
+  .logo {
+    height: 16.6px;
+    width: 100px;
+  }
+
+  .year-of-the-tiger-videos-section img {
+    width: 335px;
+    height: 214.39px;
+  }
+
+  .most-watched-videos-section img {
+    width: 335px;
+    height: 214.39px;
+  }
+
+  .intro-video-section > div > img {
+    height: 190px;
+    min-width: 100%;
+    position: relative;
+  }
+
+  .rightlogo {
+    width: 88px;
+    height: 19px;
+  }
+  .first-most-watched-video > h2 {
+    font-size: 20px;
+  }
+
+  .most-watched-videos-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-most-watched-video:first-child {
+    border-right: none;
+  }
+
+  .first-most-watched-video {
+    padding-inline: 0px;
+  }
+
+  .first-love-master-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .eshare-th-love > h2 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-block: 20px;
+  }
+
+  .member-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .member-part {
+    border-right: none;
+  }
+
+  .member-section > div {
+    width: auto;
+    margin-block: 25px;
+  }
+
+  .member-section > div > h3 {
+    font-size: 15px;
+  }
+
+  .member-section > div > h4 {
+    font-size: 12px;
+  }
+  body
+    > main
+    > section.member-section.master-container
+    > div.connect-part
+    > div
+    > div {
+    gap: 0;
+  }
+
+  .more-to-love-event-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body > main > section.more-to-love-section.master-container > div > div {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20%;
+  }
+
+  body > main > section.more-to-love-section.master-container > h2 {
+    font-size: 18px;
+  }
+
+  body > footer > nav.footer-middle {
+    padding: 2%;
+  }
+
+  body > footer > nav.footer-middle > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body > footer > nav.footer-bottom > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .main-top-bar {
+    height: 19px;
+  }
+
+  .year-of-the-tiger-videos-section img {
+    width: 385px;
+    height: 246.39px;
+  }
+
+  .most-watched-videos-section img {
+    width: 374px;
+    height: 239.35px;
+  }
+
+  .intro-video-section > div > img {
+    height: 190px;
+    width: 425px;
+    position: relative;
+  }
+
+  .rightlogo {
+    width: 88px;
+    height: 19px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main-top-bar {
+    height: 19px;
+  }
+
+  .intro-video-section > div > img {
+    height: 335px;
+    width: 100%;
+    position: relative;
+  }
+
+  .year-of-the-tiger-videos-section img {
+    width: 220.96px;
+    height: 141.4px;
+  }
+
+  .most-watched-videos-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-most-watched-video:first-child {
+    border-right: none;
+  }
+
+  .first-most-watched-video > h2 {
+    font-size: 24px;
+  }
+
+  .most-watched-videos-section img {
+    width: 374px;
+    height: 239.35px;
+  }
+
+  .rightlogo {
+    width: 88px;
+    height: 19px;
+  }
+
+  .tiger-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .year-of-tiger-box {
+    width: calc(33.33% - 15px);
+  }
+
+  .eshare-th-love > h2 {
+    font-size: 23px;
+    font-weight: 300;
+    padding-block: 20px;
+  }
+
+  .more-to-love-event-content > a > img {
+    width: 220.96px;
+    height: 220.96px;
+  }
+
+  .first-love-master-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ipad-display {
+    padding-inline: 20%;
+    padding-block-end: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .member-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .member-part {
+    border-right: none;
+  }
+
+  .more-to-love-section {
+    padding-inline: 30px;
+  }
+
+  .more-to-love-section > h2 {
+    font-size: 23px;
+    font-weight: 300;
+    padding-block: 20px;
+  }
+  .more-to-love-event {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .more-to-love-event-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  body
+    > main
+    > section.more-to-love-section.master-container
+    > div
+    > div:nth-child(3)
+    > div.more-to-love-event-content {
+    width: 220.953px;
+    height: 238.953px;
+  }
+
+  body
+    > main
+    > section.more-to-love-section.master-container
+    > div
+    > div:nth-child(3)
+    > div:nth-child(2) {
+    width: 220.953px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .master-container {
+    margin-inline: 15%;
+  }
+  .intro-video-section > div > img {
+    height: 555px;
+    width: 100%;
+    position: relative;
+  }
+
+  .year-of-the-tiger-videos-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .most-watched-videos-section img {
+    width: 374px;
+    height: 239.35px;
+  }
+
+  .main-second-bar {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+  }
+
+  .main-second-bar > ul > li {
+    font-size: 15px;
+  }
+
+  .intro-video-content {
+    padding-top: 20px;
+  }
+
+  .intro-video-content > p {
+    font-size: 18px;
+
+    font-weight: 200;
+  }
+
+  .main-top-bar {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 340px;
+    height: 56px;
+  }
+
+  .rightlogo {
+    width: 180px;
+    height: 23px;
+  }
+
+  header {
+    line-height: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .feature-videos-date {
+    font-size: 15px;
+  }
+  .feature-videos-title {
+    font-size: 15px;
+    letter-spacing: -1.1px;
+  }
+
+  .tiger-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-between;
+  }
+
+  .year-of-the-tiger-videos > h2 {
+    font-size: 26px;
+    padding-top: 10px;
+  }
+  .year-of-tiger-box {
+    width: calc(33.33% - 15px);
+  }
+
+  .first-most-watched-video > h2 {
+    font-size: 26px;
+    padding-top: 10px;
+  }
+
+  .eshare-th-love > h2 {
+    font-size: 26px;
+    padding-top: 30px;
+  }
+
+  .more-to-love-section > h2 {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  .more-to-love-event {
+    width: 500px;
+  }
+
+  .more-to-love-event-container {
+    padding: 20px;
+  }
+
+  .more-to-love-event-content > a > img {
+    height: auto;
+  }
+
+  .more-to-love-event-title {
+    font-size: 30px;
+  }
+
+  .footer-middle {
+    row-gap: 30px;
+  }
+
+  .footer-bottom {
+  }
+}
+/* 
+@media (max-width: 600px) {
+  .year-of-tiger-box {
+    width: 100%;
+  }
+
+  .intro-video-content {
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 20px 0;
+  }
+
+  .container-bottom {
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro-video-content > h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container-bottom {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 50px;
+  }
+} */

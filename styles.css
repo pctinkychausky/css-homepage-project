@@ -669,7 +669,7 @@ header {
   align-items: center;
   padding-inline: 20px;
   list-style: none;
-  max-width: 1000px;
+
   list-style: none;
   text-decoration: none;
   color: inherit;
@@ -867,6 +867,9 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .master-container {
+    align-items: center;
+  }
   .main-top-bar {
     height: 19px;
   }
@@ -885,11 +888,16 @@ footer {
   .most-watched-videos-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .first-most-watched-video:first-child {
     border-right: none;
   }
+
+  /* .first-most-watched-video {
+    padding-inline: 150px;
+  } */
 
   .first-most-watched-video > h2 {
     font-size: 24px;
@@ -983,11 +991,22 @@ footer {
     > div:nth-child(2) {
     width: 220.953px;
   }
+
+  body > main > section.more-to-love-section.master-container > div > div {
+    padding-inline: 2%;
+  }
+}
+
+body > main > section.more-to-love-section.master-container > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media (min-width: 1024px) {
   .master-container {
-    margin-inline: 15%;
+    align-items: center;
+    margin-inline: 13%;
   }
   .intro-video-section > div > img {
     height: 555px;
@@ -998,6 +1017,26 @@ footer {
   .year-of-the-tiger-videos-section img {
     width: 100%;
     height: auto;
+  }
+  .most-watched-videos-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  body
+    > main
+    > section.most-watched-videos-section.master-container
+    > div:nth-child(1) {
+    border-right: 1px solid #c9a16e;
+  }
+
+  .first-most-watched-video {
+    position: relative;
+    margin-top: 20px;
+    padding-inline: 10%;
+    padding-block: 30px;
+    max-width: 374px;
   }
 
   .most-watched-videos-section img {
@@ -1110,6 +1149,119 @@ footer {
   }
 
   .footer-bottom {
+  }
+
+  .first-love-master-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  body
+    > main
+    > section.share-the-love-section.master-container
+    > div
+    > div
+    > div
+    > li {
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    align-items: center;
+  }
+
+  .member-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #c9a16e;
+    padding-inline: 20px;
+  }
+  .member-section > div {
+    height: 220px;
+    margin-block: 50px;
+    width: 50%;
+  }
+
+  .member-section > div > h3 {
+    font-size: 20px;
+  }
+
+  .member-part {
+    border-right: 1px solid #c9a16e;
+  }
+
+  .member-part > h3 {
+    line-height: 1.4;
+    text-decoration: none;
+    color: inherit;
+    font-weight: lighter;
+    letter-spacing: -0.5px;
+  }
+
+  .member-part > div > a {
+    text-decoration: none;
+    color: inherit;
+    border: #000 1px solid;
+    font-size: 15px;
+
+    padding-block: 12px;
+    padding-inline: 43px;
+    font-weight: lighter;
+  }
+
+  .member-part > div {
+    border: 1px;
+    margin-top: 55px;
+  }
+  .member-part > h4 {
+    margin-block-start: 18px;
+    margin-block-end: 25px;
+  }
+
+  body > main > section.member-section.master-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  body > main > section.more-to-love-section.master-container > div > div {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 10px;
+    align-self: flex-start;
+  }
+
+  body > main > section.more-to-love-section.master-container > h2 {
+    font-size: 27px;
+  }
+
+  body
+    > main
+    > section.feature-videos-section.master-container
+    > div:nth-child(3) {
+    height: 202px;
+  }
+
+  .footer-middle {
+    margin-block: 0px;
+  }
+
+  body > footer > nav.footer-middle > ul {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 20%;
+    justify-content: space-around;
+  }
+
+  body > footer > nav.footer-bottom > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+  }
+
+  .container-bottom {
+    margin-block-end: 40px;
   }
 }
 /* 
